@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../notes/reverseString.js"],
+  "sourcesContent": ["//Create a function that reverses a string:\n//'DOG' should be: 'GOD'\n\n\n  // see the lenght of the str - check the input \n  // turn that str into an array \n  // split that str into each letter \n  // flip the str making the last string into zero posiion \n  // turn that array into the string\n\n\nfunction reverse(str) {\n  //check input \n  if (!str || str.length < 2 || typeof str !== 'string') {\n    return 'hmm there is no string';\n  }\n\n  const backwards = [];\n  const totalItems = str.length - 1;\n  for (let i = totalItems; i = 0; i--) {\n    backwards.push(str[i])\n  }\n\n  console.log(backwards);\n\nreturn backwards.join('');\n}\n\nreverse('Hi my name is Luigi');"],
+  "mappings": "AAWA,iBAAiB,KAAK;AAEpB,MAAI,CAAC,OAAO,IAAI,SAAS,KAAK,OAAO,QAAQ,UAAU;AACrD,WAAO;AAAA;AAGT,QAAM,YAAY;AAClB,QAAM,aAAa,IAAI,SAAS;AAChC,WAAS,IAAI,YAAY,IAAI,GAAG,KAAK;AACnC,cAAU,KAAK,IAAI;AAAA;AAGrB,UAAQ,IAAI;AAEd,SAAO,UAAU,KAAK;AAAA;AAGtB,QAAQ;",
+  "names": []
+}
