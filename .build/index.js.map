@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["// const nemo = ['nemo'];\n\n// function findNemo(array) {\n//   for (let i = 0; i < array.length; i++) {\n//     if (array[i] === 'nemo') {\n//       console.log('Found NEMO!');\n//       break; // stops the loop as soon nemo is found\n//     }\n//   } \n// }\n\n// findNemo(nemo); // O(n) or Linear Time because the number increase then the number operation increase as well\n\nfunction reverse(str) {\n  //check input \n  if (!str || str.length < 2 || typeof str !== 'string') {\n    return 'hmm there is no string';\n  }\n\n  const backwards = [];\n  const totalItems = str.length - 1;\n  for (let i = totalItems; i >= 0; i--) {\n    backwards.push(str[i])\n  }\n\n  console.log(backwards);\n\nreturn backwards.join('');\n}\n\nreverse('Hi my name is Luigi');"],
+  "mappings": "AAaA,iBAAiB,KAAK;AAEpB,MAAI,CAAC,OAAO,IAAI,SAAS,KAAK,OAAO,QAAQ,UAAU;AACrD,WAAO;AAAA;AAGT,QAAM,YAAY;AAClB,QAAM,aAAa,IAAI,SAAS;AAChC,WAAS,IAAI,YAAY,KAAK,GAAG,KAAK;AACpC,cAAU,KAAK,IAAI;AAAA;AAGrB,UAAQ,IAAI;AAEd,SAAO,UAAU,KAAK;AAAA;AAGtB,QAAQ;",
+  "names": []
+}
